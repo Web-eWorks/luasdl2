@@ -271,6 +271,7 @@ const luaL_Reg TextureMethods[] = {
 	{ "getAlphaMod",		l_texture_getAlphaMod		},
 	{ "getBlendMode",		l_texture_getBlendMode		},
 	{ "getColorMod",		l_texture_getColorMod		},
+	{ "free",				l_texture_gc		},
 	{ "lock",			l_texture_lock			},
 	{ "query",			l_texture_query			},
 	{ "setAlphaMod",		l_texture_setAlphaMod		},
